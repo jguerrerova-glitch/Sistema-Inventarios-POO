@@ -1,0 +1,91 @@
+class,Date,Before Class,Activity,,
+1,"Monday, February 2, 2026",no preparation,"present syllabus
+programming concepts using blocks (laberinto, pajaro, pelicula)
+analysing and code tracing",,
+2,"Wednesday, February 4, 2026","Read Streib: Chapter 1
+Read Intro Slide","identifiers & variables
+constants & data types",,
+3,"Monday, February 9, 2026","Read Streib: Chapter 1
+Read Intro Slide","Información codificada (onlinegbd)
+constants & data types
+lectura de datos (Scanner)",,
+4,"Wednesday, February 11, 2026",Read Intro 2 Slide,"arithmetic and logic operators
+converting between data types (typecasting) 
+operator precedence and secuential expressions",,
+5,"Monday, February 16, 2026","Read Streib: Chapter 2
+Read Barnes: Chapter 1
+Install BlueJ
+Download BlueJ Projects
+Read Clases y Objetos Slide",Classes and Objects,,
+6,"Wednesday, February 18, 2026","Read Funciones Slide
+Read Condicionales Slide
+","functions and parameters
+selection structures
+if
+if-else
+if-else if-else (nested)
+switch",,
+7,"Monday, February 23, 2026","Read Condicionales Slide
+Read Streib: Chapter 3
+Read Barnes: Chapter 2","if
+if-else
+if-else if-else (nested)
+switch",,
+8,"Wednesday, February 25, 2026",Read Streib: Chapter 3,"if
+if-else
+if-else if-else (nested)
+switch",,
+9,"Monday, March 2, 2026","Read Estructuras Cíclicas Slide
+Read Streib: Chapter 4","iteration or control structures
+while
+do-while",,
+10,"Wednesday, March 4, 2026","Read Estructuras Cíclicas II Slide
+Read Streib: Chapter 8","iteration or control structures
+for
+recursive functions",,
+11,"Monday, March 9, 2026","Read Objetos Relaciones  Slide
+Read Streib: Chapter 5",Objects: Revisited,,
+12,"Wednesday, March 11, 2026", REPASO O PARCIAL,,,
+13,"Monday, March 16, 2026", REPASO O PARCIAL,,,
+14,"Wednesday, March 18, 2026","Read Cadenas Slide
+Read Streib: Chapter 6
+Read Barnes: Chapter 3","Strings
+String class
+String methods",,
+15,"Wednesday, March 25, 2026","Read Arreglos Matrices Slide
+Read Streib: Chapter 7",Arrays and Matrices,,
+16,"Monday, April 6, 2026","Read Arreglos Matrices Slide
+Read Streib: Chapter 7",Arrays and Matrices,,
+17,"Wednesday, April 8, 2026","Read Herencia Polimorfismo Slide
+Read Streib: Chapter 9",Inheritance and Polymorphism,,
+18,"Monday, April 13, 2026","Read Herencia Polimorfismo Slide
+Read Streib: Chapter 9",Inheritance and Polymorphism,,
+19,"Wednesday, April 15, 2026", REPASO O PARCIAL,,,
+20,"Monday, April 20, 2026", REPASO O PARCIAL,,,
+21,"Wednesday, April 22, 2026","Read PatronesSlide
+Read ColeccionesSlide
+Read Barnes: Chapter 4","Interfaces
+Patterns
+Collections",,
+22,"Monday, April 27, 2026","Read PatronesSlide
+Read ColeccionesSlide
+Read Barnes: Chapter 4","Interfaces
+Patterns
+Collections",,
+23,"Wednesday, April 29, 2026",Read Barnes: Chapter 5,Lambdas,,
+24,"Monday, May 4, 2026",Read Barnes: Chapter 6,"Dictionaries & Hash
+Ascenso Colina: https://replit.com/@Julian-Esteba33/ascensocolina?v=1
+Ciudad por consola: https://replit.com/@Julian-Esteba33/Ciudad?v=1
+Ciudad con gui:https://replit.com/@Julian-Esteba33/CiudadGUI?v=1",,
+25,"Wednesday, May 6, 2026","Read Streib: Chapter 10 
+Read Streib:  Appendix B","File IO 
+Exceptions",,
+26,"Monday, May 11, 2026","Read Streib:  Appendix A
+Read Ambientes Gráficos Slide",GUIs,"Read BD - Intro Slide
+Read Modelo Relacional Slide
+Read SQL Slide",
+27,"Wednesday, May 13, 2026",,,"Read BD - Consultas Slide
+Read JDBC Slide",Databases & SQL
+28,"Wednesday, May 20, 2026",,parcial,,JDBC
+29,"Monday, May 25, 2026",,presentaciones,,
+30,"Wednesday, May 27, 2026",,,,

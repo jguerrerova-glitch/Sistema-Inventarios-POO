@@ -1,0 +1,141 @@
+﻿OBJECT-ORIENTED PROGRAMMING (using Java)
+TERM: 2026-1
+INSTRUCTOR:
+ David Alberto Herrera Álvarez
+e-mail: dherreraal@unal.edu.co
+Group: 9
+Course Information
+* Duration: 16 weeks (February 2nd - May 27th)
+* Schedule: Mondays and Wednesdays (2:00 PM - 4:00 PM)
+* Independent Study Workload: 5 hours per week
+COURSE OVERVIEW
+This course introduces the principles of Object-Oriented Programming (OOP) in Java, emphasizing problem-solving techniques and software design. Students will explore fundamental OOP concepts, develop interactive applications, and implement efficient programming solutions using modern development tools.
+MAIN GOAL
+To acquire and apply the fundamental concepts, techniques, and methods of object-oriented programming in Java for problem-solving.
+SPECIFIC GOALS
+1. Review foundational programming concepts, including variables, data types, control structures, and algorithms.
+
+2. Apply core programming constructs such as arrays, functions, recursion, file I/O, serialization, and hashing.
+
+3. Understand and implement the five key OOP concepts:
+
+   * Classes and objects
+
+   * Abstraction (interfaces/methods)
+
+   * Encapsulation (data hiding)
+
+   * Inheritance
+
+   * Polymorphism
+
+      4. Develop problem-solving skills through hands-on projects and coding assignments.
+
+      5. Utilize debugging techniques, software testing, and version control tools (e.g., Git) to enhance software reliability.
+
+
+
+METHODOLOGY
+The course combines lectures, coding labs, interactive exercises, and group projects to reinforce learning. Students are expected to:
+         * Attend classes regularly and actively participate in discussions.
+
+         * Complete coding exercises, quizzes, and homework assignments to strengthen their understanding.
+
+         * Work in teams on a semester-long project, applying OOP principles to develop a software solution.
+
+         * Use automated assessment tools such as HackerRank for coding evaluations.
+
+         * Engage in peer reviews to refine their programming skills and receive constructive feedback.
+
+Note: Individual projects are allowed only under exceptional conditions (e.g., medical reasons with clinical justification).
+
+
+COURSE CONTENT
+Module 1: Foundations of Programming in Java
+            * Variables, Input/Output, and Arithmetic
+            * Selection and Iteration Structures
+            * Strings and Arrays (Lab 1)
+
+Module 2: Object-Oriented Programming Basics
+               * Introduction to Objects and Classes
+               * Object Relationships and Method Calls
+               * Recursion (Lab 2 & 1st Project Report)
+               * Debugging and Unit Testing Techniques
+
+Module 3: Intermediate OOP Concepts
+                  * Inheritance and Polymorphism (Lab 3)
+                  * Exception Handling and Error Management
+                  * File Input/Output and Serialization (Lab 4 & 2nd Project Report)
+
+Module 4: Advanced Topics and Software Development
+                     * Graphical User Interfaces and Event Handling (Lab 5)
+                     * Hashing and Database Integration
+                     * Software Documentation (Javadoc) and Code Conventions
+                     * Final Project Report: Full Implementation and Presentation
+
+
+
+ASSESSMENT & GRADING POLICY
+The evaluation system is based on a point accumulation model, where students must reach a minimum of 300 points for a passing grade (3.0), while those accumulating 500+ points receive a grade of 5.0.
+Assessment Breakdown
+Assessment (42%)
+	Points
+	Weight
+	Exam I (theoretical:50 y applied:50)
+	70
+	14%
+	Exam II (theoretical:50 y applied:50)
+	70
+	14%
+	Exam II (theoretical:50 y applied:50)
+	70
+	14%
+	Project Milestones (23%)
+	
+
+	
+
+	1st Project Report: Basic Prototype with Arrays
+	25
+	5%
+	2nd Project Report: OOP Implementation (Classes, Inheritance, File I/O)
+	25
+	5%
+	Final Project Report: Full Application with GUI/Database
+	65
+	13%
+	Quizzes and Classwork (35%)
+	
+
+	
+
+	Ejercicios en OnlineGDB Classroom
+	175
+	35%
+	Total
+	500
+	100%
+	Late Submission Policy
+                        * Assignments submitted up to 24 hours late incur a 10% penalty.
+                        * Assignments over 24 hours late receive zero credit unless prior approval is granted.
+
+STUDENT CONDUCT & ACADEMIC INTEGRITY
+All students must adhere to the university’s academic honesty policies. Plagiarism and unauthorized code sharing are strictly prohibited. The following guidelines apply:
+                           * Collaboration is allowed for discussing concepts but not for sharing code or solutions.
+                           * Code similarity detection tools (e.g., MOSS) will be used to identify academic dishonesty.
+                           * Use of external resources (Stack Overflow, ChatGPT, libraries) is permitted only if properly cited.
+REQUIRED TEXTBOOKS & RESOURCES
+Books:
+                           * Barnes, D. J. & Kölling, M. (2016). Programación orientada a objetos con Java usando BlueJ. Pearson.
+                           * Deitel, H. M. & Deitel, P. (2022). Java How to Program (12th Ed.). Pearson.
+                           * Sahni, S. (2004). Data Structures, Algorithms and Applications in Java. Silicon Press.
+Online Learning Resources:
+                           * Interactive Coding Platforms: REPL.IT, HackerRank, JetBrains Academy
+                           * Video Tutorials: Coursera (OOP in Java - Duke University), Codecademy, Udemy
+                           * Java Documentation & Tools:
+                           * The Java Tutorials
+                           * Eclipse and NetBeans IDEs
+                           * Java Code Conventions & Javadoc Reference
+CLASS ATTENDANCE POLICY
+                           * Attendance is mandatory for active participation in lectures, coding exercises, and project discussions.
+                           * Students are allowed up to 4 unexcused absences per semester. Additional absences may impact grades if they result in missed deadlines.
