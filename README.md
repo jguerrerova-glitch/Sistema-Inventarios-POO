@@ -5,8 +5,7 @@ Este repositorio contiene el proyecto final de la asignatura de Programación Or
 ## Integrantes del Equipo
 1. Juan Sebastian Guerrero Vanegas
 2. Ervin Santiago Ardila Vanegas
-3. Luisa Fernanda García Mercado
-4. Juan Manuel Caviedes sanchez 
+3. Juan Manuel Caviedes sanchez 
 
 ## Requisitos y Dependencias
 - **Lenguaje:** Java Development Kit (JDK) 11 o superior.
