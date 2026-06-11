@@ -1,79 +1,165 @@
 public class Producto {
-    private String id;
-    private String nombre;
-    private String categoria;
-    private double precio;
-    private String proveedor;
-    private int cantidad;
+    private final String id;
+    private String titulo;
+    private String autor;
+    private String editorial;
+    private String areaAcademica;
+    private double valorReferencia;
+    private int cantidadDisponible;
+
+    public Producto(
+            String id,
+            String titulo,
+            String autor,
+            String editorial,
+            String areaAcademica,
+            double valorReferencia,
+            int cantidadDisponible) {
+        this.id = validarTexto(id, "ID");
+        setTitulo(titulo);
+        setAutor(autor);
+        setEditorial(editorial);
+        setAreaAcademica(areaAcademica);
+        setValorReferencia(valorReferencia);
+        setCantidadDisponible(cantidadDisponible);
+    }
 
     public Producto(String id, String nombre, String categoria, double precio, String proveedor, int cantidad) {
-        this.id = id;
-        this.nombre = nombre;
-        this.categoria = categoria;
-        this.precio = precio;
-        this.proveedor = proveedor;
-        this.cantidad = cantidad;
+        this(id, nombre, "No especificado", proveedor, categoria, precio, cantidad);
     }
 
     public String getId() {
         return id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setTitulo(String titulo) {
+        this.titulo = validarTexto(titulo, "Titulo");
     }
 
-    public String getCategoria() {
-        return categoria;
+    public String getAutor() {
+        return autor;
     }
 
-    public void setCategoria(String categoria) {
-        this.categoria = categoria;
+    public void setAutor(String autor) {
+        this.autor = validarTexto(autor, "Autor");
     }
 
-    public double getPrecio() {
-        return precio;
+    public String getEditorial() {
+        return editorial;
     }
 
-    public void setPrecio(double precio) {
-        this.precio = precio;
+    public void setEditorial(String editorial) {
+        this.editorial = validarTexto(editorial, "Editorial");
     }
 
-    public String getProveedor() {
-        return proveedor;
+    public String getAreaAcademica() {
+        return areaAcademica;
     }
 
-    public void setProveedor(String proveedor) {
-        this.proveedor = proveedor;
+    public void setAreaAcademica(String areaAcademica) {
+        this.areaAcademica = validarTexto(areaAcademica, "Area academica");
     }
 
-    public int getCantidad() {
-        return cantidad;
+    public double getValorReferencia() {
+        return valorReferencia;
+    }
+
+    public void setValorReferencia(double valorReferencia) {
+        if (valorReferencia < 0) {
+            throw new IllegalArgumentException("El valor de referencia no puede ser negativo.");
+        }
+
+        this.valorReferencia = valorReferencia;
+    }
+
+    public int getCantidadDisponible() {
+        return cantidadDisponible;
+    }
+
+    public void setCantidadDisponible(int cantidadDisponible) {
+        if (cantidadDisponible < 0) {
+            throw new IllegalArgumentException("La cantidad disponible no puede ser negativa.");
+        }
+
+        this.cantidadDisponible = cantidadDisponible;
     }
 
     public void aumentarStock(int unidades) {
-        cantidad += unidades;
+        if (unidades <= 0) {
+            throw new IllegalArgumentException("Las unidades deben ser mayores a cero.");
+        }
+
+        cantidadDisponible += unidades;
     }
 
     public boolean reducirStock(int unidades) {
-        if (unidades > cantidad) {
+        if (unidades <= 0 || unidades > cantidadDisponible) {
             return false;
         }
 
-        cantidad -= unidades;
+        cantidadDisponible -= unidades;
         return true;
     }
 
     public String mostrarInformacion() {
         return "ID: " + id
-                + "\nNombre: " + nombre
-                + "\nCategoria: " + categoria
-                + "\nPrecio: $" + precio
-                + "\nProveedor: " + proveedor
-                + "\nCantidad en stock: " + cantidad;
+                + "\nTitulo: " + titulo
+                + "\nAutor: " + autor
+                + "\nEditorial: " + editorial
+                + "\nArea academica: " + areaAcademica
+                + "\nValor de referencia: $" + valorReferencia
+                + "\nCantidad disponible: " + cantidadDisponible;
+    }
+
+    public String getNombre() {
+        return getTitulo();
+    }
+
+    public void setNombre(String nombre) {
+        setTitulo(nombre);
+    }
+
+    public String getCategoria() {
+        return getAreaAcademica();
+    }
+
+    public void setCategoria(String categoria) {
+        setAreaAcademica(categoria);
+    }
+
+    public double getPrecio() {
+        return getValorReferencia();
+    }
+
+    public void setPrecio(double precio) {
+        setValorReferencia(precio);
+    }
+
+    public String getProveedor() {
+        return getEditorial();
+    }
+
+    public void setProveedor(String proveedor) {
+        setEditorial(proveedor);
+    }
+
+    public int getCantidad() {
+        return getCantidadDisponible();
+    }
+
+    public void setCantidad(int cantidad) {
+        setCantidadDisponible(cantidad);
+    }
+
+    private String validarTexto(String texto, String campo) {
+        if (texto == null || texto.trim().isEmpty()) {
+            throw new IllegalArgumentException(campo + " es obligatorio.");
+        }
+
+        return texto.trim();
     }
 }
