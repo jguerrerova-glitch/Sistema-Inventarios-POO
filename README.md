@@ -5,12 +5,7 @@ Proyecto final de Programación Orientada a Objetos (2026-1). El sistema permite
 ## Integrantes del Equipo
 1. Juan Sebastian Guerrero Vanegas
 2. Ervin Santiago Ardila Vanegas
-<<<<<<< Updated upstream
-3. Juan Manuel Caviedes sanchez 
-=======
-3. Luisa Fernanda García Mercado
-4. Juan Manuel Caviedes Sánchez
->>>>>>> Stashed changes
+3. Juan Manuel Caviedes sanchez
 
 ## Requisitos y Dependencias
 - **Lenguaje:** Java Development Kit (JDK) 11 o superior.
@@ -75,9 +70,3 @@ El logo institucional se carga desde la carpeta `Universidad_Nacional_de_Colombi
 - Eliminar libros solo con rol de administrador.
 - Generar reporte de libros con bajo stock.
 
-## Notas para GitHub
-
-- Sube la carpeta `src`.
-- Sube la carpeta `Universidad_Nacional_de_Colombia` porque contiene el logo usado por la interfaz.
-- Sube `README.md`, `ejecutar.ps1` y `.gitignore`.
-- No es necesario subir la carpeta `out`, archivos `.class` ni configuraciones locales del IDE.
